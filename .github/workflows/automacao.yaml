@@ -1,0 +1,23 @@
+name: run automacao.py
+
+on: 
+  schedule:
+    - cron: '*/5 * * * *'
+
+
+
+jobs:
+  run_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checolha conteudo do repositorio
+        uses: actions/checkout@v3
+
+      - name: intalar python
+        uses: actions/setup-python@v4
+
+      - name: intalar pacotes do requirements.txt
+        run: python -m pip install pip install -r requirements.txt
+
+      - name: executar arquivo de scraping
+        run: python automacao.py
