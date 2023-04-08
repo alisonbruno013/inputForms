@@ -1,4 +1,4 @@
 pandas
-selenuim==3
+selenium
 openpyxl
 webdriver-manager
