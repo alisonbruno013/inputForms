@@ -10,7 +10,7 @@ jobs:
   run_schedule:
     runs-on: ubuntu-latest
     steps:
-      - name: checolha conteudo do repositorio
+      - name: checka conteudo do repositorio
         uses: actions/checkout@v3
 
       - name: intalar python
