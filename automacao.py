@@ -14,7 +14,7 @@ aba = openArquivo.active #Apontamento de planilha ativa para o openpyxl
 
 arquivo = pd.read_excel('formsAula.xlsx') #Leitura de arquivo para o pandas
 print(arquivo) #Print de planilha no estado inicial
-link = 'https://docs.google.com/forms/d/e/1FAIpQLScIY3O51W8xdNSkTuqF_ru0o4kKzeSWQrxdmLjpOsU42iCV-Q/viewform' #Link do forms ou site da ação
+link = 'https://docs.google.com/forms/d/e/1FAIpQLSeIvYdaFuuKyHu699jlrxZENPVUqWmQLX6dEL_XLDu6DA1ZRg/viewform' #Link do forms ou site da ação
 
 #Configuração para o chorme não abrir no front-end
 opc = webdriver.ChromeOptions()
